@@ -1,21 +1,231 @@
 body{
-    margin: 0px;
+    margin: auto;
+    font-family: Lato;
+    font-size: 16px;
+}
 
+
+
+/* nav div */
+
+
+nav {
+
+  font-family: lato,Verdana, Geneva, Tahoma, sans-serif;  
+  text-transform: uppercase;
+  font-size: 12px;
+  
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #222d6d;
+}
+
+.active {
+  background-color: #222d6d;
+}
+
+.nolink{
+    
+  font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+
+ 
+
+/* main div */
+
+.maindiv {
+    margin: 50px auto;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid rgba(255, 230, 0, 0.452);
+
+
+}
+
+header {
+    padding: 30px;
+    
 }
 
 header img {
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
     margin-left: 0px;
     margin-bottom: 0px;
+
+    
 }
 
-.text {
+.textdiv {
     position: absolute;
+    margin-top: 25px;
+    margin-bottom: 15px;
     top: 50px;
-    left: 525px;
+    left: 690px;
     right: 35px;
-    max-width: 700px;
+    max-width: 500px;
+    width: 100%;
+    border-left: 1px solid rgba(130, 175, 219, 0.452);
+    }
+
+.textdiv p{
+    margin: 15px auto 15px;
+    max-width: 400px;
+    width: 100%;
+    font-size: 13px;
+    text-align: justify;
+ 
 
 }
 
+
+img {
+
+  max-width: 700px;
+  width: 100%;
+  padding-top: 0px;
+  left: 0px;
+  border-radius: 4px;
+
+
+}
+
+
+/*drop cap*/
+
+.has-dropcap:first-letter {
+    font-weight: 200;
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;    
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+  }
+  
+  .dropcap {
+    font-family: lato;
+    background: #303030;
+    color: #FDF9F2;
+    float: left;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0.1em 0.1em 0.2em 0;
+    padding: 0.1em;
+  }
+  .dropcap:before,
+  .dropcap:after {
+    content: "";
+    display: block;
+  }
+  .dropcap:before {
+    margin-top: -0.2em;
+  }
+  .dropcap:after {
+    margin-bottom: -0.15em;
+  }
+  
+  /* https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html */
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
+  /* colomn css */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  main{
+    width: 100%;
+    max-width: 1100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+
+
+  /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  .row {
+    display: flex;
+    
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+  }
+
+  .column #box {
+
+    max-width: 500px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .column p{
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 240, 234);
+    font-size: 14px;
+    text-align: justify;
+    line-height: 26px;
+  }
+
+
+/*----- footer ----*/
+
+footer {
+  font-size: 8px;
+  color: #FDF9F2;
+  max-width: 475px;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+ 
