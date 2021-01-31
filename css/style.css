@@ -5,7 +5,6 @@ body{
 }
 
 
-
 /* nav div */
 
 
@@ -71,8 +70,6 @@ li a:hover:not(.active) {
     max-width: 1000px;
     width: 100%;
     border: 1px solid rgba(255, 230, 0, 0.452);
-
-
 }
 
 header {
@@ -85,8 +82,6 @@ header img {
     width: 100%;
     margin-left: 0px;
     margin-bottom: 0px;
-
-    
 }
 
 .textdiv {
@@ -127,7 +122,7 @@ img {
 /*drop cap*/
 
 .has-dropcap:first-letter {
-    font-weight: 200;
+    font-weight: 300;
     font-family: lato,Verdana, Geneva, Tahoma, sans-serif;    
     float: left;
     font-size: 6rem;
@@ -214,17 +209,24 @@ img {
     text-align: justify;
     line-height: 26px;
   }
-
+  
 
 /*----- footer ----*/
 
 footer {
-  font-size: 8px;
+  font-size: 10px;
   color: #FDF9F2;
   max-width: 475px;
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 
+}
+
+.pvw-title span {
+  display: none;
+}
+.pvw-title:after {
+  content: '*** be advised that this is a fictional story. also be advised that anything can happen ***';
 }
 
 

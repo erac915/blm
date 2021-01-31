@@ -8,6 +8,7 @@ input[type=text], select{
   box-sizing: border-box;
   background-color: black;
   color: rgb(167, 167, 167);
+  height:30px
 }
 
 textarea{
