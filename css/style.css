@@ -72,17 +72,7 @@ li a:hover:not(.active) {
     border: 1px solid rgba(255, 230, 0, 0.452);
 }
 
-header {
-    padding: 30px;
-    
-}
 
-header img {
-    max-width: 450px;
-    width: 100%;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
 
 .textdiv {
     position: absolute;
@@ -102,8 +92,13 @@ header img {
     width: 100%;
     font-size: 13px;
     text-align: justify;
- 
+}
 
+mark.blue{
+  color: rgb(255, 255, 255);
+background-color: rgb(238, 40, 73);
+padding-left: 3px;
+padding-right: 3px;
 }
 
 
