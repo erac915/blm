@@ -1,2 +1,2 @@
 # blm
-the fictional tale of THE CREATION NETWORK as seen by Octavious.
+the fictional tale of THE CREATION NETWORK as seen by Octavius.
