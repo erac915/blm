@@ -225,5 +225,19 @@ footer {
   content: '*** be advised that this is a fictional story. also be advised that anything can happen ***';
 }
 
+.bold{
+  font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(206, 241, 107);
+  font-size: 16px;
+  margin-top: 10px;
+ 
+}
+
+.bold a{
+  font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(206, 241, 107);
+  font-size: 16px;
+ 
+}
 
  
